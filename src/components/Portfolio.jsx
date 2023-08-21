@@ -7,12 +7,12 @@ import TheChayaChitra from '../assets/portfolio/TheChayaChitra.png';
 import TinderDogs from '../assets/portfolio/TinderDogs.png';
 
 const Portfolio = () => {
-
+    
     return (
         <div name="portfolio" className='bg-gradient-to-b from-black to-gray-800 w-full text-white md:h-screens'>
             <div className='max-w-screen-lg p-4 mx-auto flex flex-col justify-normal w-full h-full'>
                 <div className='pb-8 '>
-                    <p className='font-signature text-5xl bold inline border-b-4 border-gray-500'>Portfolio</p>
+                    <p className='text-4xl bold inline border-b-4 border-gray-500'>Portfolio</p>
                     <p className='py-6'>Checkout some of my work right here</p>
                 </div>
 
@@ -27,7 +27,10 @@ const Portfolio = () => {
                         <div className='flex items-center justify-center'>
                             <a href="https://restaurant-react-app-rust.vercel.app/" className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105'>Demo</a>
                             <a href="https://github.com/Vargos98/restaurant-react-app" className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105'>Code</a>
+                            
                         </div>
+                        <p className='text-md bold inline ml-5 mt-5 mb-5 font-bold'>Tech Stack </p>
+                        <p className='mt-5 mb-5 flex items-center justify-center '> React.js, Sass, HTML</p>
                     </div>
 
                     <div className='shadow-md shadow-gray-600 rounded-r-lg'>
@@ -36,6 +39,8 @@ const Portfolio = () => {
                             <a href="https://itunes-clone.vercel.app/" className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105'>Demo</a>
                             <a href="https://github.com/Vargos98/Itunes-clone" className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105'>Code</a>
                         </div>
+                        <p className='text-md bold inline ml-5 mt-5 mb-5 font-bold'>Tech Stack </p>
+                        <p className='mt-5 mb-5 flex items-center justify-center'> HTML, CSS, JQuery</p>
                     </div>
 
                     <div className='shadow-md shadow-gray-600 rounded-r-lg'>
@@ -44,6 +49,8 @@ const Portfolio = () => {
                             <a href="https://the-chaya-chitra.vercel.app/" className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105'>Demo</a>
                             <a href="https://github.com/Vargos98/The-Chaya-Chitra" className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105'>Code</a>
                         </div>
+                        <p className='text-md bold inline ml-5 mt-5 mb-5 font-bold'>Tech Stack </p>
+                        <p className='mt-5 mb-5 flex items-center justify-center'> HTML, CSS, JQuery</p>
                     </div>
 
                     <div className='shadow-md shadow-gray-600 rounded-r-lg'>
@@ -52,6 +59,8 @@ const Portfolio = () => {
                             <a href="https://grid-notes.vercel.app/" className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105'>Demo</a>
                             <a href="https://github.com/Vargos98/grid-notes" className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105'>Code</a>
                         </div>
+                        <p className='text-md bold inline ml-5 mt-5 mb-5 font-bold'>Tech Stack </p>
+                        <p className='mt-5 mb-5 flex items-center justify-center'> React.js, CSS, HTML</p>
                     </div>
 
                     <div className='shadow-md shadow-gray-600 rounded-r-lg'>
@@ -60,6 +69,8 @@ const Portfolio = () => {
                             <a href="https://tin-dog-phi.vercel.app/" className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105'>Demo</a>
                             <a href="https://github.com/Vargos98/TinDog" className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105'>Code</a>
                         </div>
+                        <p className='text-md bold inline ml-5 mt-5 mb-5 font-bold'>Tech Stack </p>
+                        <p className='mt-5 mb-5 flex items-center justify-center '>HTML, Bootstrap</p>
                     </div>
 
                     <div className='shadow-md shadow-gray-600 rounded-r-lg'>
@@ -68,10 +79,9 @@ const Portfolio = () => {
                             <a href="https://mynotes98.vercel.app/" className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105'>Demo</a>
                             <a href="https://github.com/Vargos98/mynotes98" className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105'>Code</a>
                         </div>
+                        <p className='text-md bold inline ml-5 mt-5 mb-5 font-bold'>Tech Stack </p>
+                        <p className='mt-5 mb-5 flex items-center justify-center'> React.js</p>
                     </div>
-
-
-
 
                 </div>
             </div>
