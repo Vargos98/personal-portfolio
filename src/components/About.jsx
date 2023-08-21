@@ -15,7 +15,7 @@ const About = () => {
         <br />
         <br />
         <br />
-          <p className="text-4xl font-bold inline border-b-4 border-gray-500 font-signature">
+          <p className="text-5xl font-bold inline border-b-4 border-gray-500 font-signature">
             About
           </p>
         </div>
