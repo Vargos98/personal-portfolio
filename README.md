@@ -2,6 +2,8 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+Live link : https://personal-portfolio-two-azure-28.vercel.app/
+
 ## Available Scripts
 
 In the project directory, you can run:
