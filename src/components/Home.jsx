@@ -4,21 +4,22 @@ import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 
 const Home = () => {
     return (
-        <div name="home" className='h-screen w-full bg-gradient-to-b from-black to-gray-800'>
+        <div name="home" className='h-screen w-full bg-gradient-to-b from-black via-black to-gray-800'>
             <div className='max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row'>
                 <div className='flex flex-col justify-center h-full'>
                     <h2 className='text-4xl sm:text-7xl font-bold text-white'>I am a Frontend Developer !</h2>
                     <p className='text-gray-500 py-4 max-w-md'>
-                        I my thirst for learning web development has
+                        My thirst for learning web development has
                         no bound, currently I am learning new frameworks and
                         technologies in Web Dev in-order to excel and grow.
                         My main focus is on learning and would love to work in place where learning aspects are abundant !
                     </p>
                     <div>
-                        <button>
+                        <button className='group text-white w-fit px-6 py-3 my-2 flex items-center cursor-pointer 
+                        rounded-md bg-gradient-to-r from-cyan-500 to-blue-500'>
                             Portfolio
-                            <span>
-                                <MdOutlineKeyboardArrowRight />
+                            <span className='group-hover:rotate-90 duration-300'>
+                                <MdOutlineKeyboardArrowRight  size={25} className='ml-1'/>
                             </span>
 
                         </button>
