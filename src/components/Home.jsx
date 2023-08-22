@@ -3,18 +3,18 @@ import HeroImage from '../assets/heroImage.png';
 // import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
-import { BsFillPersonLinesFill } from "react-icons/bs";
+
 
 
 
 const Home = () => {
     const links = [
-        
+
         {
             id: 1,
             child: (
                 <>
-                 LinkedIn <FaLinkedin size={25} />
+                    <FaLinkedin size={25} />
                 </>
             ),
             href: "https://www.linkedin.com/in/umesh-kumar-377775275/",
@@ -24,7 +24,7 @@ const Home = () => {
             id: 2,
             child: (
                 <>
-                 Github<FaGithub size={25} />
+                    <FaGithub size={25} />
                 </>
             ),
             href: "https://github.com/vargos98",
@@ -33,22 +33,12 @@ const Home = () => {
             id: 3,
             child: (
                 <>
-                    Mail <HiOutlineMail size={25} />
+                    <HiOutlineMail size={28} />
                 </>
             ),
             href: "mailto:Vargos98@gmail.com",
         },
-        {
-            id: 4,
-            child: (
-                <>
-                     Resume<BsFillPersonLinesFill size={25} />
-                </>
-            ),
-            href: "/resume.pdf",
-            style: "rounded-br-md",
-            download: true,
-        },
+
     ];
     return (
         <div name="home" className='h-screen w-full bg-gradient-to-b from-black via-black to-gray-800'>
@@ -60,8 +50,8 @@ const Home = () => {
                     </p>
                     {/* SocialLinks */}
                     <div className='flex items-center flex-row  {"      "}'>
-                   
-                    <ul className='flex flex-row'>
+
+                        <ul className='flex flex-row'>
                             {links.map(({ id, child, href, style, download }) => (
                                 <li
                                     key={id}
@@ -83,7 +73,16 @@ const Home = () => {
                                 </li>
                             ))}
                         </ul>
-                        
+                    </div>
+                    <div className='text-white  mt-2 mr-1'>
+                        <div>
+                            <form method="get" action="/resume.pdf">
+                                <button class="bg-gray-400 hover:bg-gray-500 text-gray-800 font-bold py-2 px-4 rounded inline-flex items-center">
+                                    <svg class="fill-current w-4 h-4 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M13 8V2H7v6H2l8 8 8-8h-5zM0 18h20v2H0v-2z" /></svg>
+                                    <span>Download Resume</span>
+                                </button>
+                            </form>
+                        </div>
                     </div>
                 </div>
                 <div>

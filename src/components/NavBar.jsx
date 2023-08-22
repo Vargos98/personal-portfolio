@@ -30,9 +30,9 @@ const NavBar = () => {
   ];
 
   return (
-    <div  className="flex justify-between items-center w-full h-20 px-4 text-white bg-black fixed">
+    <div className="flex justify-between items-center w-full h-20 px-4 text-white bg-black fixed">
       <div>
-        <h1 className="text-2xl  ml-2 font-signature">Umesh Kumar</h1>
+        <h1 className="text-2xl  ml-2 font">Umesh Kumar</h1>
       </div>
 
       <ul className="hidden md:flex">
@@ -41,7 +41,9 @@ const NavBar = () => {
             key={id}
             className="px-4 cursor-pointer capitalize font-medium text-gray-400 hover:scale-105 duration-200 transition: 0.5s ease"
           >
-            <Link to={link} smooth duration={600}>
+            <Link
+              to={link}
+              smooth duration={600}>
               {link}
             </Link>
           </li>
@@ -50,6 +52,8 @@ const NavBar = () => {
 
       <div
         onClick={() => setNav(!nav)}
+        smooth
+        duration={600}
         className="cursor-pointer pr-4 z-10 text-gray-400 md:hidden transition: 0.5s ease"
       >
         {nav ? <FaTimes size={30} /> : <FaBars size={30} />}
