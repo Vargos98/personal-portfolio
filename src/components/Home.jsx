@@ -49,7 +49,7 @@ const Home = () => {
                         I'm Umesh Kumar. A passionate Front-end React Developer based in Jaipur, Rajasthan.
                     </p>
                     {/* SocialLinks */}
-                    <div className='flex items-center flex-row  {"      "}'>
+                    <div className='flex items-center flex-row  '>
 
                         <ul className='flex flex-row'>
                             {links.map(({ id, child, href, style, download }) => (

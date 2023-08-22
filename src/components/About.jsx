@@ -13,11 +13,6 @@ const About = () => {
             About
           </p>
         </div>
-
-
-
-        <br />
-
         <p className="text-xl">
           I am currently based in Jaipur, Rajasthan and I have completed my Bachelors in Computer Science and Technology in 2021 from JK Lakshmipat University Jaipur, Rajasthan.
           I have a passion for building web applications and designing beautiful user interfaces.
