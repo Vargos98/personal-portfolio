@@ -63,7 +63,7 @@ const Home = () => {
                                 >
                                     <a
                                         href={href}
-                                        className="flex justify-between items-center w-full text-gray-400 p-2"
+                                        className="flex justify-between items-center w-full text-white p-2"
                                         download={download}
                                         target="_blank"
                                         rel="noreferrer"
