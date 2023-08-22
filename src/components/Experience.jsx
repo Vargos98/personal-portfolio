@@ -6,7 +6,7 @@ import Java from '../assets/Java.png'
 import css from '../assets/css.png'
 import github from '../assets/github.png'
 import javascript from '../assets/javascript.png'
-import Mysql from '../assets/Mysql.png'
+// import Mysql from '../assets/Mysql.png'
 import node from '../assets/node.png'
 import react from '../assets/react.png'
 import Sass from '../assets/Sass.png'
@@ -75,12 +75,12 @@ const Experience = () => {
       title: "Java",
       style: "shadow-red-500",
     },
-    {
-      id: 11,
-      src: Mysql,
-      title: "Mysql",
-      style: "shadow-blue-300",
-    },
+    // {
+    //   id: 11,
+    //   src: Mysql,
+    //   title: "Mysql",
+    //   style: "shadow-blue-300",
+    // },
   ];
   return (
     <div
