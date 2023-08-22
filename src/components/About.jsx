@@ -19,9 +19,9 @@ const About = () => {
         <br />
 
         <p className="text-xl">
-          I am currently based in Jaipur Rajsthan and I have completed my Bachelors in Computer Science and Technology in 2021 from JK Lakshmipat University, Jaipur, Rajasthan. 
-          After that I worked as Chief Operations Officer in " The Chaya Chitra " and managed the key aspects of running and managing a company.
-          Moreover, I designed its website and handled clients simultaneously.
+          I am currently based in Rajsthan,India and I have completed my Bachelors in Computer Science and Technology in 2021 from JK Lakshmipat University, Jaipur, Rajasthan. 
+          I have a passion for building web applications and designing beautiful user interfaces.
+          Recently I've been working with technologies like Javascript, React, Tailwind and I'm currently learning Node.js and other backend frameworks.
         </p>
     
       </div>
