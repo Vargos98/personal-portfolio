@@ -7,7 +7,7 @@ import TheChayaChitra from '../assets/portfolio/TheChayaChitra.png';
 import TinderDogs from '../assets/portfolio/TinderDogs.png';
 
 const Portfolio = () => {
-    
+
     return (
         <div name="portfolio" className='bg-gradient-to-b from-black to-gray-800 w-full text-white md:h-screens'>
             <div className='max-w-screen-lg p-4 mx-auto flex flex-col justify-normal w-full h-full'>
@@ -27,7 +27,7 @@ const Portfolio = () => {
                         <div className='flex items-center justify-center'>
                             <a href="https://restaurant-react-app-rust.vercel.app/" className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105'>Demo</a>
                             <a href="https://github.com/Vargos98/restaurant-react-app" className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105'>Code</a>
-                            
+
                         </div>
                         <p className='text-md bold inline ml-5 mt-5 mb-5 font-bold'>Tech Stack </p>
                         <p className='mt-5 mb-5 flex items-center justify-center '> React.js, Sass, HTML</p>
@@ -82,6 +82,13 @@ const Portfolio = () => {
                         <p className='text-md bold inline ml-5 mt-5 mb-5 font-bold'>Tech Stack </p>
                         <p className='mt-5 mb-5 flex items-center justify-center'> React.js</p>
                     </div>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+
+
+
 
                 </div>
             </div>

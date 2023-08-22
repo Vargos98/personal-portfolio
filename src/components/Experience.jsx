@@ -104,8 +104,14 @@ const Experience = () => {
               <img src={src} alt="" className="w-20 mx-auto" />
               <p className="mt-4">{title}</p>
             </div>
+
           ))}
+          <span></span>
+          <span></span>
+
+
         </div>
+
       </div>
     </div>
   )
