@@ -30,7 +30,7 @@ const Portfolio = () => {
 
                         </div>
                         <p className='text-md bold inline ml-5 mt-5 mb-5 font-bold'>Tech Stack </p>
-                        <p className='mt-5 mb-5 flex items-center justify-center '> React.js, Sass, HTML</p>
+                        <p className='mt-5 mb-5 flex items-center justify-center '> React.js, HTML</p>
                     </div>
 
                     <div className='shadow-md shadow-gray-600 rounded-r-lg'>
