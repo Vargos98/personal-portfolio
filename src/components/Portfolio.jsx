@@ -22,9 +22,9 @@ const Portfolio = () => {
                 <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-8'>
 
 
-                    <div className='shadow-md shadow-gray-600 rounded-r-lg'>
+                    <div className='shadow-md shadow-gray-600 rounded-r-lg duration-200 hover:scale-110'>
                         <img src={FiestaLaBlanc} alt="" className='rounded-md duration-200 hover:scale-105' />
-                        <div className='flex items-center justify-center'>
+                        <div className='flex items-center justify-center '>
                             <a href="https://restaurant-react-app-rust.vercel.app/" className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105'>Demo</a>
                             <a href="https://github.com/Vargos98/restaurant-react-app" className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105'>Code</a>
 
@@ -33,7 +33,7 @@ const Portfolio = () => {
                         <p className='mt-5 mb-5 flex items-center justify-center '> React.js</p>
                     </div>
 
-                    <div className='shadow-md shadow-gray-600 rounded-r-lg'>
+                    <div className='shadow-md shadow-gray-600 rounded-r-lg duration-200 hover:scale-110'>
                         <img src={ItunesClone} alt="" className='rounded-md duration-200 hover:scale-105' />
                         <div className='flex items-center justify-center'>
                             <a href="https://itunes-clone.vercel.app/" className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105'>Demo</a>
@@ -43,7 +43,7 @@ const Portfolio = () => {
                         <p className='mt-5 mb-5 flex items-center justify-center'> HTML, CSS, JQuery</p>
                     </div>
 
-                    <div className='shadow-md shadow-gray-600 rounded-r-lg'>
+                    <div className='shadow-md shadow-gray-600 rounded-r-lg duration-200 hover:scale-110'>
                         <img src={TheChayaChitra} alt="" className='rounded-md duration-200 hover:scale-105' />
                         <div className='flex items-center justify-center'>
                             <a href="https://the-chaya-chitra.vercel.app/" className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105'>Demo</a>
@@ -53,7 +53,7 @@ const Portfolio = () => {
                         <p className='mt-5 mb-5 flex items-center justify-center'> HTML, CSS, JQuery</p>
                     </div>
 
-                    <div className='shadow-md shadow-gray-600 rounded-r-lg'>
+                    <div className='shadow-md shadow-gray-600 rounded-r-lg duration-200 hover:scale-110'>
                         <img src={GridNotes} alt="" className='rounded-md duration-200 hover:scale-105' />
                         <div className='flex items-center justify-center'>
                             <a href="https://grid-notes.vercel.app/" className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105'>Demo</a>
@@ -63,7 +63,7 @@ const Portfolio = () => {
                         <p className='mt-5 mb-5 flex items-center justify-center'> React.js, CSS, HTML</p>
                     </div>
 
-                    <div className='shadow-md shadow-gray-600 rounded-r-lg'>
+                    <div className='shadow-md shadow-gray-600 rounded-r-lg duration-200 hover:scale-110'>
                         <img src={TinderDogs} alt="" className='rounded-md duration-200 hover:scale-105' />
                         <div className='flex items-center justify-center'>
                             <a href="https://tin-dog-phi.vercel.app/" className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105'>Demo</a>
@@ -73,7 +73,7 @@ const Portfolio = () => {
                         <p className='mt-5 mb-5 flex items-center justify-center '>HTML, Bootstrap</p>
                     </div>
 
-                    <div className='shadow-md shadow-gray-600 rounded-r-lg'>
+                    <div className='shadow-md shadow-gray-600 rounded-r-lg duration-200 hover:scale-110'>
                         <img src={MyNotes} alt="" className='rounded-md duration-200 hover:scale-105' />
                         <div className='flex items-center justify-center'>
                             <a href="https://mynotes98.vercel.app/" className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105'>Demo</a>

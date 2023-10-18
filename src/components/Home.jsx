@@ -44,14 +44,14 @@ const Home = () => {
         <div name="home" className='h-screen w-full bg-gradient-to-b from-black via-black to-gray-800'>
             <div className='max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row'>
                 <div className='flex flex-col justify-center h-full'>
-                    <h2 className='text-xl sm:text-6xl font-bold text-white'>Hi, there.👋 </h2>
+                    <h2 className='text-xl sm:text-6xl font-bold text-white'>Hi, there.👋</h2>
                     <p className='text-gray-400 py-4 max-w-md sm:text-sm'>
                         I'm Umesh Kumar. A passionate Front-end React Developer based in Jaipur, Rajasthan.
                     </p>
                     {/* SocialLinks */}
                     <div className='flex items-center flex-row  '>
 
-                        <ul className='flex flex-row'>
+                        <ul className='flex flex-row '>
                             {links.map(({ id, child, href, style, download }) => (
                                 <li
                                     key={id}
@@ -87,7 +87,7 @@ const Home = () => {
                 </div>
                 <div>
                     <img src={HeroImage} alt="profilepic"
-                        className='rounded-2xl mx-5 md:w-full' />
+                        className='rounded-2xl mx-5 md:w-full duration-200 hover:scale-110' />
                 </div>
             </div>
         </div>

@@ -54,9 +54,9 @@ const NavBar = () => {
         onClick={() => setNav(!nav)}
         smooth
         duration={600}
-        className="cursor-pointer pr-4 z-10 text-gray-400 md:hidden transition: 0.5s ease"
+        className="cursor-pointer pr-4 z-10 text-gray-400 md:hidden hover:scale-110 duration-200 transition: 0.5s ease"
       >
-        {nav ? <FaTimes size={30} /> : <FaBars size={30} />}
+        {nav ? <FaTimes size={30} /> : <FaBars size={30} className="hover:scale-105 duration-200 transition: 0.5s ease"/>}
       </div>
 
       {nav && (
@@ -64,7 +64,7 @@ const NavBar = () => {
           {links.map(({ id, link }) => (
             <li
               key={id}
-              className="px-4 cursor-pointer capitalize py-6 text-4xl transition: 0.5s ease"
+              className="px-4 cursor-pointer capitalize py-6 text-4xl hover:scale-110 duration-200 transition: 0.5s ease"
             >
               <Link
                 onClick={() => setNav(!nav)}
