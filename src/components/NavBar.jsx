@@ -56,7 +56,7 @@ const NavBar = () => {
         duration={600}
         className="cursor-pointer pr-4 z-10 text-gray-400 md:hidden hover:scale-110 duration-200 transition: 0.5s ease"
       >
-        {nav ? <FaTimes size={30} /> : <FaBars size={30} className="hover:scale-105 duration-200 transition: 0.5s ease"/>}
+        {nav ? <FaTimes size={30} /> : <FaBars size={30} className="hover:scale-105 duration-200 transition: 0.5s ease "/>}
       </div>
 
       {nav && (
