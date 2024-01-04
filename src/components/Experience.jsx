@@ -6,11 +6,14 @@ import Java from '../assets/Java.png'
 import css from '../assets/css.png'
 import github from '../assets/github.png'
 import javascript from '../assets/javascript.png'
-// import Mysql from '../assets/Mysql.png'
 import node from '../assets/node.png'
 import react from '../assets/react.png'
-import Sass from '../assets/Sass.png'
 import tailwind from '../assets/tailwind.png'
+import MongoDB from '../assets/mongoDB.png'
+import Next from '../assets/Next.jpg'
+import Vercel from '../assets/Vercel.png'
+
+
 
 
 const Experience = () => {
@@ -53,34 +56,45 @@ const Experience = () => {
     },
     {
       id: 7,
-      src: Sass,
-      title: "Sass",
-      style: "shadow-pink-400",
+      src: MongoDB,
+      title: "MongoDB",
+      style: "shadow-green-700",
     },
     {
       id: 8,
-      src: github,
-      title: "GitHub",
-      style: "shadow-gray-400",
+      src: Next,
+      title: "Next js",
+      style: "shadow-yellow-400",
     },
+  
     {
       id: 9,
       src: CPP,
       title: "C++",
       style: "shadow-blue-500",
     },
+    
     {
       id: 10,
+      src: github,
+      title: "GitHub",
+      style: "shadow-gray-400",
+    },
+    {
+      id: 11,
       src: Java,
       title: "Java",
       style: "shadow-red-500",
     },
-    // {
-    //   id: 11,
-    //   src: Mysql,
-    //   title: "Mysql",
-    //   style: "shadow-blue-300",
-    // },
+    {
+      id: 12,
+      src: Vercel,
+      title: "Vercel",
+      style: "shadow-white",
+    },
+    
+   
+    
   ];
   return (
     <div
