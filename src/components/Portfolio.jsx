@@ -4,7 +4,6 @@ import GridNotes from '../assets/portfolio/GridNotes.png';
 import MyNotes from '../assets/portfolio/MyNotes.png';
 import ItunesClone from '../assets/portfolio/ItunesClone.png';
 import TheChayaChitra from '../assets/portfolio/TheChayaChitra.png';
-// import TinderDogs from '../assets/portfolio/TinderDogs.png';
 import reactEssentials from '../assets/portfolio/React-Essentials.png';
 
 const Portfolio = () => {
