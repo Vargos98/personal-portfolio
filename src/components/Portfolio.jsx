@@ -29,7 +29,7 @@ const Portfolio = () => {
                             <a href="https://github.com/Vargos98/restaurant-react-app" className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105'>Code</a>
 
                         </div>
-                        <p className='text-md bold inline ml-5 mt-5 mb-5 font-bold'>Tech Stack </p>
+                        <p className='text-md bold inline ml-5 mt-5 mb-5 font-bold'> </p>
                         <p className='mt-5 mb-5 flex items-center justify-center '> React.js</p>
                     </div>
                     <div className='shadow-md shadow-gray-600 rounded-r-lg duration-200 hover:scale-110'>
