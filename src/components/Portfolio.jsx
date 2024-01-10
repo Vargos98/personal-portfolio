@@ -33,6 +33,7 @@ const Portfolio = () => {
                         <p ></p>
                         <p className='mt-2 mb-5 ml-4 flex items-start fs-2 '>Fiesta La Blanc is a React.js project based upon a restaurant website. Also, having emersive layout making it usercentric.</p>
                     </div>
+
                     <div className='shadow-md shadow-gray-600 rounded-r-lg duration-200 hover:scale-110'>
                         <img src={reactEssentials} alt="" className='rounded-md duration-200 hover:scale-105' />
                         <div className='flex items-center justify-center'>
@@ -42,7 +43,7 @@ const Portfolio = () => {
                         <p className='text-md bold inline ml-4 mt-5 mb-5 font-bold text-cyan-400'>Tech Stack : <span className=' text-xs mt-2 text-red-300 ml-1 '> React.js</span></p>
 
                         <p className='mt-2 mb-5 ml-4 flex items-start fs-2 '>Project built for clearing basics for react.js and its fundamentals. Having several code snippets based on different methods.</p>
-                        
+
                     </div>
 
                     <div className='shadow-md shadow-gray-600 rounded-r-lg duration-200 hover:scale-110'>
@@ -52,9 +53,9 @@ const Portfolio = () => {
                             <a href="https://github.com/Vargos98/Itunes-clone" className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105'>Code</a>
                         </div>
                         <p className='text-md bold inline ml-4 mt-5 mb-5 font-bold text-cyan-400'>Tech Stack :<span className=' text-xs mt-2 text-red-300 ml-1 '>HTML, CSS, JQuery</span> </p>
-                    
+
                         <p className='mt-2 mb-5 ml-4 flex items-start fs-2 '> Cloned & customized a web project inspired by iTunes, showcasing strong front-end development skills and user interface design expertise.</p>
-                       
+
                     </div>
 
                     <div className='shadow-md shadow-gray-600 rounded-r-lg duration-200 hover:scale-110'>
@@ -64,7 +65,7 @@ const Portfolio = () => {
                             <a href="https://github.com/Vargos98/The-Chaya-Chitra" className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105'>Code</a>
                         </div>
                         <p className='text-md bold inline ml-4 mt-5 mb-5 font-bold text-cyan-400'>Tech Stack :<span className=' text-xs mt-2 text-red-300 ml-1 '>HTML, CSS, JQuery</span></p>
-                  
+
                         <p className='mt-2 mb-5 ml-4 flex items-start fs-2 '>Website designed to showcase services provided by the company based on multi-level photography and videography.</p>
                     </div>
 
@@ -75,11 +76,9 @@ const Portfolio = () => {
                             <a href="https://github.com/Vargos98/grid-notes" className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105'>Code</a>
                         </div>
                         <p className='text-md bold inline ml-4 mt-5 mb-5 font-bold text-cyan-400'>Tech Stack : <span className=' text-xs mt-2 text-red-300 ml-1 '> React.js</span> </p>
-                    
+
                         <p className='mt-2 mb-5 ml-4 flex items-start fs-2 text-wrap '>Designed & developed a user-friendly & mobile-friendly note-taking application using React, implemented a responsive grid layout for organizing and visualizing notes.</p>
                     </div>
-
-                   
 
                     <div className='shadow-md shadow-gray-600 rounded-r-lg duration-200 hover:scale-110'>
                         <img src={MyNotes} alt="" className='rounded-md duration-200 hover:scale-105' />
