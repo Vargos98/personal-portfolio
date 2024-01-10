@@ -60,12 +60,12 @@ const Experience = () => {
       title: "MongoDB",
       style: "shadow-green-700",
     },
-    {
-      id: 8,
-      src: Next,
-      title: "Next js",
-      style: "shadow-yellow-400",
-    },
+    // {
+    //   id: 8,
+    //   src: Next,
+    //   title: "Next js",
+    //   style: "shadow-yellow-400",
+    // },
   
     {
       id: 9,
