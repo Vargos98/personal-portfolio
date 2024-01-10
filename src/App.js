@@ -11,10 +11,10 @@ function App() {
   return (
     <div>
       <NavBar/>
-      <Home/>
-      <About/>
+      <Home/> 
       <Portfolio/>
       <Experience/>
+      <About/>
       <Contact/>
       
     </div>

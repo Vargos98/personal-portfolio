@@ -14,13 +14,23 @@ const About = () => {
           </p>
         </div>
         <p className="text-xl">
-          I am currently based in Jaipur, Rajasthan and I have completed my Bachelors in Computer Science and Technology in 2021 from JK Lakshmipat University Jaipur, Rajasthan.
-          I have a passion for building web applications and designing beautiful user interfaces.
-          Recently, I've been working with technologies like JavaScript, React.js, and Tailwind, and I'm currently learning Node.js and other backend technologies.
+          I am a web developer out in Jaipur and I have completed my Bachelors in Computer Science and Technology from JK Lakshmipat University Jaipur.
+          I have a passion for building web applications and designing beautiful user interfaces.<br/>
+          Technology excites me and I am always in awe of the change it drives in the world.<br/> 
+          Certain skills that I have worked with include Data Structures and Algorithms (Java, C++),<br/> 
+          Web Development (MERN Stack), and what I might lack in 
+          skills I make up for with my determination to learn.<br/>
+          Outside of tech, I am a coffee lover, and loves to participate in numerous sports   
+          in which swimming and badminton are my favourites.<br/> Beside that I love cooking, 
+          as cooking is simple therapeutic. It does wonders
+          in terms of unwinding and relaxing.
         </p>
-
+      <br/>
+      <br/>
+      <br/>
       </div>
     </div>
+    
   );
 };
 
