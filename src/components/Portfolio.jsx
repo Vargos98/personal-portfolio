@@ -35,17 +35,7 @@ const Portfolio = () => {
                         <p className='mt-2 mb-5 ml-4 flex items-start fs-2 '>Fiesta La Blanc is a React.js project based upon a restaurant website. Also, having emersive layout making it usercentric.</p>
                     </div>
 
-                    <div className='shadow-md shadow-gray-600 rounded-r-lg duration-200 hover:scale-110'>
-                        <img src={travelList} alt="" className='rounded-md duration-200 hover:scale-105' />
-                        <div className='flex items-center justify-center '>
-                            <a href="https://react-basics-sooty.vercel.app/" className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105'>Demo</a>
-                            <a href="https://github.com/Vargos98/react-basics/tree/main/travel-list" className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105'>Code</a>
-
-                        </div>
-                        <p className='text-md bold inline ml-4 mt-5 mb-5 font-bold text-cyan-400'>Tech Stack : <span className=' text-xs mt-2 text-red-300 ml-1 '> React.js</span> </p>
-                        <p ></p>
-                        <p className='mt-2 mb-5 ml-4 flex items-start fs-2 '>Travel-list is a React.js project based upon a to-do list. Also, having features to calculate the percentage of items packed.</p>
-                    </div>
+                    
 
 
                     <div className='shadow-md shadow-gray-600 rounded-r-lg duration-200 hover:scale-110'>
@@ -103,6 +93,18 @@ const Portfolio = () => {
                         <p className='text-md bold inline ml-4 mt-5 mb-5 font-bold text-cyan-400'>Tech Stack : <span className=' text-xs mt-2 text-red-300 ml-1 '> React.js</span> </p>
 
                         <p className='mt-2 mb-5 ml-4 flex items-start fs-2 text-wrap '>Another Note making app designed to store data locally on device. So, the user could close/reload the page and does not loose its feeds.</p>
+                    </div>
+
+                    <div className='shadow-md shadow-gray-600 rounded-r-lg duration-200 hover:scale-110'>
+                        <img src={travelList} alt="" className='rounded-md duration-200 hover:scale-105' />
+                        <div className='flex items-center justify-center '>
+                            <a href="https://react-basics-sooty.vercel.app/" className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105'>Demo</a>
+                            <a href="https://github.com/Vargos98/react-basics/tree/main/travel-list" className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105'>Code</a>
+
+                        </div>
+                        <p className='text-md bold inline ml-4 mt-5 mb-5 font-bold text-cyan-400'>Tech Stack : <span className=' text-xs mt-2 text-red-300 ml-1 '> React.js</span> </p>
+                        <p ></p>
+                        <p className='mt-2 mb-5 ml-4 flex items-start fs-2 '>Travel-list is a React.js project based upon a to-do list. Also, having features to calculate the percentage of items packed.</p>
                     </div>
                     <span></span>
                     <span></span>
