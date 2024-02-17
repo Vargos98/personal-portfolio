@@ -9,7 +9,7 @@ import javascript from '../assets/javascript.png'
 import node from '../assets/node.png'
 import react from '../assets/react.png'
 import tailwind from '../assets/tailwind.png'
-import MongoDB from '../assets/mongoDB.png'
+import MongoDB from '../assets/mongodb_original_logo_icon_146424.png'
 // import Next from '../assets/Next.jpg'
 import Vercel from '../assets/Vercel.png'
 
@@ -106,10 +106,10 @@ const Experience = () => {
           <p className="text-4xl bold inline border-b-4 border-gray-500">
             Tech-Stack
           </p>
-          <p className="py-6">These are the technologies I've worked with</p>
+          <p className="py-8">These are the technologies I've worked with</p>
         </div>
 
-        <div className="w-full grid grid-cols-2 sm:grid-cols-3 gap-8 text-center py-8 px-12 sm:px-0">
+        <div className="w-full grid grid-cols-2 sm:grid-cols-5 gap-8 text-center py-8 px-12 sm:px-0">
           {techs.map(({ id, src, title, style }) => (
             <div
               key={id}
@@ -120,7 +120,7 @@ const Experience = () => {
             </div>
 
           ))}
-          <span></span>
+          <span className='mb-10'></span>
           <span></span>
 
 
