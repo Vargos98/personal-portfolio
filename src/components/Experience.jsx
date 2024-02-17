@@ -120,7 +120,7 @@ const Experience = () => {
             </div>
 
           ))}
-          <span className='mb-10'></span>
+          <span className='m-10'></span>
           <span></span>
 
 
