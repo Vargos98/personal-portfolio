@@ -1,5 +1,5 @@
 import React from 'react'
-import './wave.css';
+
 import HeroImage from '../assets/heroImage.png';
 // import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
