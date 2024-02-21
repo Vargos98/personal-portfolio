@@ -45,7 +45,8 @@ const Home = () => {
         <div name="home" className='h-screen w-full bg-gradient-to-b from-black via-black to-gray-800'>
             <div className='max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row'>
                 <div className='flex flex-col justify-center h-full'>
-                    <h2 className='text-xl sm:text-6xl font-bold text-white'>Hi, there.<span>👋</span></h2>
+                    <h2 className='text-xl sm:text-6xl font-bold text-white '>Hi,<span className='bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500
+        inline-block text-transparent bg-clip-text'> there.</span> <span>👋</span></h2>
                     <p className='text-gray-400 py-4 max-w-md sm:text-sm'>
                         I'm Umesh Kumar. A passionate Front-end React Developer based in Jaipur, Rajasthan.
                     </p>
@@ -64,7 +65,7 @@ const Home = () => {
                                 >
                                     <a
                                         href={href}
-                                        className="flex justify-between items-center w-full text-white p-2"
+                                        className="flex justify-between items-center w-full text-white p-2 "
                                         download={download}
                                         target="_blank"
                                         rel="noreferrer"

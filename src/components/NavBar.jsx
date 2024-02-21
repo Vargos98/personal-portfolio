@@ -34,14 +34,17 @@ const NavBar = () => {
   return (
     <div className="flex justify-between items-center w-full h-20 px-4 text-white bg-black fixed">
       <div>
-        <h1 className="text-2xl  ml-2 font hover:scale-110 duration-300">Umesh Kumar</h1>
+        <h1 className="text-2xl  ml-2 font hover:scale-110 duration-300 
+        bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500
+        inline-block text-transparent bg-clip-text">Umesh Kumar</h1>
       </div>
 
       <ul className="hidden md:flex">
         {links.map(({ id, link }) => (
           <li
             key={id}
-            className="px-4 cursor-pointer capitalize font-medium text-gray-400 hover:scale-105 duration-200 transition: 0.5s ease"
+            className="px-4 cursor-pointer capitalize font-medium text-gray-400 hover:scale-105 duration-200 transition: 0.5s ease bg-gradient-to-r from-yellow-500 via-orange-500 to-red-500
+        inline-block text-transparent bg-clip-text"
           >
             <Link
               to={link}

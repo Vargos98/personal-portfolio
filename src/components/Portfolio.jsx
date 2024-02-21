@@ -13,7 +13,8 @@ const Portfolio = () => {
         <div name="portfolio" className='bg-gradient-to-b from-gray-800 to-black w-full text-white md:h-screens'>
             <div className='max-w-screen-lg p-4 mx-auto flex flex-col justify-normal w-full h-full'>
                 <div className='pb-8 '>
-                    <p className='text-4xl bold inline border-b-4 border-gray-500'>Portfolio</p>
+                    <p className='text-4xl bold inline border-b-4 border-yellow-500 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500
+        inline-block text-transparent bg-clip-text'>Portfolio</p>
                     <p className='py-6'>Checkout some of my work right here</p>
                 </div>
 
