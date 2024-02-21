@@ -59,17 +59,19 @@ const NavBar = () => {
         onClick={() => setNav(!nav)}
         smooth
         duration={600}
-        className="cursor-pointer pr-4 z-10 text-gray-400 md:hidden hover:scale-110 duration-200 transition: 0.5s ease"
+        className="cursor-pointer pr-4 z-10 text-gray-400 md:hidden hover:scale-110 duration-200 transition: 0.5s ease
+         "
       >
         {nav ? <FaTimes size={30} /> : <FaBars size={30} className="hover:scale-105 duration-200 transition: 0.5s ease "/>}
       </div>
 
       {nav && (
-        <ul className="flex flex-col justify-center items-center absolute top-0 left-0 w-full h-screen bg-gradient-to-b from-black to-gray-800 text-gray-400 transition: 0.5s ease">
+        <ul className="flex flex-col justify-center items-center absolute top-0 left-0 w-full h-screen bg-gradient-to-b from-black to-gray-800 text-gray-400 transition: 0.5s ease" >
           {links.map(({ id, link }) => (
             <li
               key={id}
-              className="px-4 cursor-pointer capitalize py-6 text-4xl hover:scale-110 duration-200 transition: 0.5s ease"
+              className="px-4 cursor-pointer capitalize py-6 text-4xl hover:scale-110 duration-200 transition: 0.5s ease bg-gradient-to-r from-yellow-500 via-orange-500 to-red-500
+        inline-block text-transparent bg-clip-text"
             >
               <Link
                 onClick={() => setNav(!nav)}
