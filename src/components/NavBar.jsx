@@ -35,7 +35,7 @@ const NavBar = () => {
     <div className="flex justify-between items-center w-full h-20 px-4 text-white bg-black fixed">
       <div>
         <h1 className="text-2xl  ml-2 font hover:scale-110 duration-300 
-        bg-gradient-to-r from-pink-500 via-purple-500 to-red-500
+       text-white
         inline-block text-transparent bg-clip-text">UmeshK.dev</h1>
       </div>
 
