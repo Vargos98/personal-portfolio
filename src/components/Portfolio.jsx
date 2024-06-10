@@ -6,6 +6,7 @@ import ItunesClone from '../assets/portfolio/ItunesClone.png';
 import TheChayaChitra from '../assets/portfolio/TheChayaChitra.png';
 import reactEssentials from '../assets/portfolio/React-Essentials.png';
 import travelList from '../assets/portfolio/Travel-list.png';
+import fashion from '../assets/portfolio/fashion-profile.png';
 
 const Portfolio = () => {
 
@@ -52,14 +53,14 @@ const Portfolio = () => {
                     </div>
 
                     <div className='shadow-md shadow-gray-600 rounded-r-lg duration-200 hover:scale-110'>
-                        <img src={ItunesClone} alt="" className='rounded-md duration-200 hover:scale-105' />
+                        <img src={fashion} alt="" className='rounded-md duration-200 hover:scale-105' />
                         <div className='flex items-center justify-center'>
-                            <a href="https://itunes-clone.vercel.app/" className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105'>Demo</a>
-                            <a href="https://github.com/Vargos98/Itunes-clone" className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105'>Code</a>
+                            <a href="https://dribble-fashion-week.vercel.app/" className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105'>Demo</a>
+                            <a href="https://github.com/Vargos98/profile-page/tree/main" className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105'>Code</a>
                         </div>
-                        <p className='text-md bold inline ml-4 mt-5 mb-5 font-bold text-cyan-400'>Tech Stack :<span className=' text-xs mt-2 text-red-300 ml-1 '>HTML, CSS, JQuery</span> </p>
+                        <p className='text-md bold inline ml-4 mt-5 mb-5 font-bold text-cyan-400'>Tech Stack :<span className=' text-xs mt-2 text-red-300 ml-1 '>HTML, CSS, CSS-GRID</span> </p>
 
-                        <p className='mt-2 mb-5 ml-4 flex items-start fs-2 '> Cloned & customized a web project inspired by iTunes, showcasing strong front-end development skills and user interface design expertise.</p>
+                        <p className='mt-2 mb-5 ml-4 flex items-start fs-2 '> This project is a replication of a design I found on Dribbble using HTML and CSS with a focus on CSS Grid Layout. The purpose of this project is to practice and showcase my front-end development skills, particularly in creating responsive and visually appealing layouts.</p>
 
                     </div>
 
