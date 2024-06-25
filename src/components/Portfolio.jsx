@@ -2,7 +2,7 @@ import React from 'react'
 import FiestaLaBlanc from '../assets/portfolio/FiestaLaBlanc.png';
 // import GridNotes from '../assets/portfolio/GridNotes.png';
 import MyNotes from '../assets/portfolio/MyNotes.png';
-import ItunesClone from '../assets/portfolio/ItunesClone.png';
+// import ItunesClone from '../assets/portfolio/ItunesClone.png';
 import TheChayaChitra from '../assets/portfolio/TheChayaChitra.png';
 import reactEssentials from '../assets/portfolio/React-Essentials.png';
 import travelList from '../assets/portfolio/Travel-list.png';
