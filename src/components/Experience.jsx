@@ -103,7 +103,7 @@ const Experience = () => {
     >
       <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white">
         <div>
-          <p className="text-4xl bold inline border-b-4 border-yellow-500 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500
+          <p className="text-4xl bold border-b-4 border-yellow-500 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500
         inline-block text-transparent bg-clip-text">
             <strong>Tech-Stack</strong>
           </p>
