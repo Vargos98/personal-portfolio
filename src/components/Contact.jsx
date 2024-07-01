@@ -8,7 +8,7 @@ const Contact = () => {
     >
       <div className="flex flex-col p-4 justify-center max-w-screen-lg mx-auto h-full">
         <div className="pb-8">
-          <p className="text-4xl bold inline border-b-4 border-yellow-500 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500
+          <p className="text-4xl bold  border-b-4 border-yellow-500 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500
         inline-block text-transparent bg-clip-text ">
             <strong>Contact</strong>
           </p>
@@ -40,7 +40,7 @@ const Contact = () => {
               className="p-2 bg-transparent border-2 rounded-md text-white focus:outline-none"
               required></textarea>
 
-            <button className="text-black bg-gradient-to-b from-yellow-500 to-orange-500 px-6 py-3 my-8 mx-auto flex items-center rounded-md hover:scale-110 duration-300">
+            <button className="text-black bg-gradient-to-b from-yellow-500 to-orange-500 px-6 py-3 my-8 mx-auto flex items-center rounded-md hover:scale-110 hover:font-bold hover:text-gray-100 duration-300">
               <strong>Let's chat</strong>
             </button>
           </form>
