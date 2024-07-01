@@ -10,7 +10,7 @@ const Contact = () => {
         <div className="pb-8">
           <p className="text-4xl bold inline border-b-4 border-yellow-500 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500
         inline-block text-transparent bg-clip-text ">
-            Contact
+            <strong>Contact</strong>
           </p>
           <p className="py-6">Wanna chat! hit me up, I'm ready to help <span className="text-4xl">😉</span></p>
         </div>
@@ -41,7 +41,7 @@ const Contact = () => {
               required></textarea>
 
             <button className="text-black bg-gradient-to-b from-yellow-500 to-orange-500 px-6 py-3 my-8 mx-auto flex items-center rounded-md hover:scale-110 duration-300">
-              Let's chat
+              <strong>Let's chat</strong>
             </button>
           </form>
         </div>
