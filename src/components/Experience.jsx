@@ -105,7 +105,7 @@ const Experience = () => {
         <div>
           <p className="text-4xl bold inline border-b-4 border-yellow-500 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500
         inline-block text-transparent bg-clip-text">
-            Tech-Stack
+            <strong>Tech-Stack</strong>
           </p>
           <p className="py-8">These are the technologies I've worked with</p>
         </div>
