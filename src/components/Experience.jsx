@@ -44,10 +44,11 @@ const Experience = () => {
     },
     {
       id: 5,
-      src: tailwind,
-      title: "Tailwind",
-      style: "shadow-sky-400",
+      src: Java,
+      title: "Java",
+      style: "shadow-red-500",
     },
+  
     {
       id: 6,
       src: node,
@@ -56,9 +57,9 @@ const Experience = () => {
     },
     {
       id: 7,
-      src: MongoDB,
-      title: "MongoDB",
-      style: "shadow-green-700",
+      src: github,
+      title: "GitHub",
+      style: "shadow-gray-400",
     },
     // {
     //   id: 8,
@@ -73,19 +74,20 @@ const Experience = () => {
       title: "C++",
       style: "shadow-blue-500",
     },
-    
     {
       id: 10,
-      src: github,
-      title: "GitHub",
-      style: "shadow-gray-400",
+      src: MongoDB,
+      title: "MongoDB",
+      style: "shadow-green-700",
     },
     {
       id: 11,
-      src: Java,
-      title: "Java",
-      style: "shadow-red-500",
+      src: tailwind,
+      title: "Tailwind",
+      style: "shadow-sky-400",
     },
+    
+    
     {
       id: 12,
       src: Vercel,
@@ -114,10 +116,10 @@ const Experience = () => {
           {techs.map(({ id, src, title, style }) => (
             <div
               key={id}
-              className={`shadow-md hover:scale-105 py-6 rounded-full hover:shadow-lg duration-500 ${style}`}
+              className={`shadow-xl hover:scale-105 py-6 rounded-full hover:shadow-lg duration-500 ${style}`}
             >
               <img src={src} alt="" className="w-20  mx-auto hover:scale-110 duration-300 rounded-full" />
-              <p className="mt-4 hover:font-bold">{title}</p>
+              <p className="mt-4 hover:font-bold duration-500">{title}</p>
             </div>
 
           ))}
