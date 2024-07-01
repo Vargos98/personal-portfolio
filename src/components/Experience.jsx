@@ -109,7 +109,7 @@ const Experience = () => {
         inline-block text-transparent bg-clip-text">
             <strong>Tech-Stack</strong>
           </p>
-          <p className="py-8">These are the technologies I've worked with</p>
+          <p className="py-8 cursor:auto">These are the technologies I've worked with</p>
         </div>
 
         <div className="w-full grid grid-cols-2 sm:grid-cols-5 gap-8 text-center py-8 px-12 sm:px-0 ">
