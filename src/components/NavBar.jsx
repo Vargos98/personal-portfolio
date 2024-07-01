@@ -73,7 +73,7 @@ const NavBar = () => {
               className="px-4 cursor-pointer capitalize py-6 text-4xl hover:scale-110 duration-200 transition: 0.5s ease text-white
         inline-block text-transparent bg-clip-text"
             >
-              <Link
+              <Link className="hover:scale-110 duration-300"
                 onClick={() => setNav(!nav)}
                 to={link}
                 smooth
