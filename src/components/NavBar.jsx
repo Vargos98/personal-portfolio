@@ -36,7 +36,7 @@ const NavBar = () => {
       <div>
         <h1 className="text-2xl  ml-2 font hover:scale-110 duration-300 
        text-white
-        inline-block text-transparent bg-clip-text">UmeshK.dev</h1>
+        inline-block text-transparent bg-clip-text"><strong>UmeshK.dev</strong></h1>
       </div>
 
       <ul className="hidden md:flex">
