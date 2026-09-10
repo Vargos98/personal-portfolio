@@ -9,9 +9,9 @@ export const profile = {
   headline: 'Hi there,',
   loaderLine: 'Welcome',
   summary:
-    'I have 2+ years of experience building scalable production MERN apps and Jira-integrated SaaS at Gudakesa. I currently live and work in Gurugram.',
+    'I have 3+ years of experience building scalable production MERN apps and Jira-integrated SaaS at Gudakesa. I currently live and work in Gurugram.',
   about: [
-    'I am based in Gurugram and have more than two years of experience building production web applications. Much of that work has been on Jira-integrated SaaS products, along with MERN applications and interfaces that need to work well on both desktop and mobile.',
+    'I am based in Gurugram and have more than three years of experience building production web applications. Much of that work has been on Jira-integrated SaaS products, along with MERN applications and interfaces that need to work well on both desktop and mobile.',
     'I work mainly with React, TypeScript, Node.js, and MongoDB. I also handle CI/CD and Docker, and I care about quality — functional testing, regression testing, and API checks before a feature ships.',
     'I completed my Bachelor’s in Computer Science and Engineering at JK Lakshmipat University (June 2017 – June 2021). Outside of work I enjoy coffee, swimming, badminton, and cooking.',
   ],

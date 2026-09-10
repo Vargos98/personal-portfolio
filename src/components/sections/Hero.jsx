@@ -1,13 +1,13 @@
 import { useRef } from 'react';
 import { FaGithub, FaLinkedin } from 'react-icons/fa';
 import { HiOutlineMail } from 'react-icons/hi';
-import heroImage from '@/assets/images/heroImage.png';
 import { profile } from '@/data/profile';
+import { featuredSkills } from '@/data/skills';
 import { socials } from '@/data/socials';
 import { gsap, prefersReducedMotion, useGSAP } from '@/lib/gsap';
 import { scrollToId } from '@/lib/scrollTo';
 import BackgroundBeams from '@/components/ui/BackgroundBeams';
-import Container from '@/components/ui/Container';
+import SkillMark from '@/components/ui/SkillMark';
 import Spotlight from '@/components/ui/Spotlight';
 
 const iconMap = {
@@ -16,34 +16,39 @@ const iconMap = {
   email: HiOutlineMail,
 };
 
+const highlights = [
+  { label: 'Experience', value: '3+ years' },
+  { label: 'Based in', value: 'Gurugram' },
+  { label: 'Focus', value: 'MERN & Jira SaaS' },
+  { label: 'Currently', value: 'Gudakesa' },
+];
+
+const heroStack = featuredSkills.slice(0, 8);
+
 export default function Hero({ ready = true }) {
   const root = useRef(null);
 
   useGSAP(
     () => {
+      const pieces =
+        '[data-hero="title"] span, [data-hero="body"], [data-hero="stats"], [data-hero="cta"] > *, [data-hero="stack"]';
+
       if (!ready) {
-        gsap.set('[data-hero="title"] span, [data-hero="body"], [data-hero="cta"] > *', {
-          opacity: 0,
-          y: 20,
-        });
-        gsap.set('[data-hero="photo"]', { opacity: 0, x: 24 });
+        gsap.set(pieces, { opacity: 0, y: 20 });
         return;
       }
 
       if (prefersReducedMotion()) {
-        gsap.set('[data-hero="title"] span, [data-hero="body"], [data-hero="cta"] > *, [data-hero="photo"]', {
-          opacity: 1,
-          x: 0,
-          y: 0,
-        });
+        gsap.set(pieces, { opacity: 1, y: 0 });
         return;
       }
 
       const tl = gsap.timeline({ defaults: { ease: 'power3.out', clearProps: 'transform' } });
       tl.to('[data-hero="title"] span', { y: 0, opacity: 1, stagger: 0.08, duration: 0.65 })
-        .to('[data-hero="body"]', { y: 0, opacity: 1, duration: 0.55 }, '-=0.3')
-        .to('[data-hero="cta"] > *', { y: 0, opacity: 1, stagger: 0.08, duration: 0.45 }, '-=0.25')
-        .to('[data-hero="photo"]', { x: 0, opacity: 1, duration: 0.8 }, '-=0.7');
+        .to('[data-hero="body"]', { y: 0, opacity: 1, duration: 0.5 }, '-=0.28')
+        .to('[data-hero="stats"]', { y: 0, opacity: 1, duration: 0.5 }, '-=0.28')
+        .to('[data-hero="cta"] > *', { y: 0, opacity: 1, stagger: 0.08, duration: 0.4 }, '-=0.22')
+        .to('[data-hero="stack"]', { y: 0, opacity: 1, duration: 0.45 }, '-=0.2');
     },
     { scope: root, dependencies: [ready] },
   );
@@ -56,30 +61,58 @@ export default function Hero({ ready = true }) {
     >
       <div className="bg-grid pointer-events-none absolute inset-0 opacity-60" />
       <BackgroundBeams />
-      <Spotlight />
+      <Spotlight className="left-[72%] top-1/2 hidden lg:block" />
+      <p
+        aria-hidden="true"
+        className="pointer-events-none absolute right-0 top-1/2 hidden -translate-y-1/2 select-none font-extrabold leading-none text-white/[0.035] lg:block lg:text-[18vw]"
+      >
+        DEV
+      </p>
 
-      <Container className="relative z-10 grid items-center gap-10 py-12 lg:grid-cols-[minmax(0,1fr)_auto] lg:gap-16">
-        <div data-hero="copy" className="max-w-xl text-center lg:text-left">
-          <p className="text-sm font-semibold uppercase tracking-[0.2em] text-purple-300">
-            {profile.role}
-          </p>
+      <div className="relative z-10 w-full px-4 py-12 sm:px-6 lg:px-10 xl:px-16">
+        <div data-hero="copy" className="w-full lg:w-[68%]">
+          <div className="flex items-center gap-4">
+            <p className="shrink-0 text-sm font-semibold uppercase tracking-[0.22em] text-purple-300">
+              {profile.role}
+            </p>
+            <span className="hidden h-px flex-1 bg-gradient-to-r from-purple-400/60 via-fuchsia-400/25 to-transparent sm:block" />
+          </div>
+
           <h1
             data-hero="title"
-            className="mt-4 text-4xl font-extrabold leading-tight sm:text-5xl lg:text-6xl"
+            className="mt-5 text-4xl font-extrabold tracking-tight sm:text-6xl lg:text-7xl xl:text-[5.25rem] xl:leading-[1.05]"
           >
             <span className="block">{profile.headline}</span>
             <span className="gradient-text">I'm {profile.name}.</span>
           </h1>
+
           <p
             data-hero="body"
-            className="mt-5 text-sm leading-relaxed text-neutral-400 sm:text-base"
+            className="mt-6 max-w-2xl text-sm leading-relaxed text-neutral-400 sm:text-base lg:text-lg"
           >
             {profile.summary}
           </p>
 
+          <dl
+            data-hero="stats"
+            className="mt-10 grid grid-cols-2 gap-3 sm:grid-cols-4"
+          >
+            {highlights.map((item) => (
+              <div
+                key={item.label}
+                className="rounded-2xl border border-white/10 bg-white/[0.03] px-4 py-3.5"
+              >
+                <dt className="text-[11px] font-semibold uppercase tracking-[0.16em] text-neutral-500">
+                  {item.label}
+                </dt>
+                <dd className="mt-1.5 text-sm font-semibold text-white sm:text-base">{item.value}</dd>
+              </div>
+            ))}
+          </dl>
+
           <div
             data-hero="cta"
-            className="mt-8 flex flex-col items-center gap-5 sm:flex-row sm:flex-wrap sm:justify-center lg:justify-start"
+            className="mt-8 flex flex-col items-start gap-5 sm:flex-row sm:flex-wrap sm:items-center"
           >
             <div className="flex items-center gap-1">
               {socials.map((item) => {
@@ -118,20 +151,20 @@ export default function Hero({ ready = true }) {
               Let's talk
             </button>
           </div>
-        </div>
 
-        <div data-hero="photo" className="mx-auto w-48 sm:w-64 lg:w-72">
-          <div className="relative">
-            <div className="absolute -inset-3 rounded-[1.6rem] bg-gradient-to-br from-indigo-500/40 via-purple-500/20 to-pink-500/40 blur-xl" />
-            <img
-              src={heroImage}
-              alt={`${profile.name} portrait`}
-              fetchPriority="high"
-              className="relative z-10 w-full rounded-2xl object-cover shadow-2xl motion-safe:animate-float"
-            />
+          <div data-hero="stack" className="mt-10 flex flex-wrap gap-2.5">
+            {heroStack.map((skill) => (
+              <span
+                key={skill.id}
+                className="inline-flex cursor-default items-center gap-2 rounded-full border border-white/10 bg-white/[0.04] px-3 py-1.5 text-xs text-neutral-200"
+              >
+                <SkillMark skill={skill} className="h-3.5 w-3.5" />
+                {skill.title}
+              </span>
+            ))}
           </div>
         </div>
-      </Container>
+      </div>
     </section>
   );
 }
