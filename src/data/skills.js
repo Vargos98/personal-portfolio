@@ -33,6 +33,7 @@ import {
   SiCplusplus,
   SiVite,
   SiGreensock,
+  SiReactrouter,
 } from 'react-icons/si';
 import zustand from '@/assets/images/tech/zustand.svg';
 
@@ -52,6 +53,8 @@ export const skills = [
   { id: 'jquery', title: 'jQuery', Icon: SiJquery, color: '#0769AD', group: 'frontend', hidden: true },
   { id: 'vite', title: 'Vite', Icon: SiVite, color: '#646CFF', group: 'devops', hidden: true },
   { id: 'gsap', title: 'GSAP', Icon: SiGreensock, color: '#88CE02', group: 'frontend', hidden: true },
+  { id: 'lenis', title: 'Lenis', group: 'frontend', hidden: true },
+  { id: 'react-router', title: 'React Router', Icon: SiReactrouter, color: '#CA4245', group: 'frontend', hidden: true },
   { id: 'node', title: 'Node.js', Icon: SiNodedotjs, color: '#5FA04E', group: 'backend' },
   { id: 'express', title: 'Express.js', Icon: SiExpress, color: '#FFFFFF', group: 'backend' },
   { id: 'mongo', title: 'MongoDB', Icon: SiMongodb, color: '#47A248', group: 'backend' },
@@ -119,6 +122,8 @@ export const STACK_ALIASES = {
   Vite: 'vite',
   'REST APIs': 'rest',
   Vercel: 'vercel',
+  Lenis: 'lenis',
+  'React Router': 'react-router',
 };
 
 export function skillFromStackLabel(label) {

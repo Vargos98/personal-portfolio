@@ -25,7 +25,7 @@ export default function ProjectCard({ project }) {
       data-animate
       onMouseMove={onMove}
       onMouseLeave={() => setGlow((prev) => ({ ...prev, visible: false }))}
-      className="group relative flex h-full flex-col overflow-hidden rounded-3xl border border-white/10 bg-[#0a0a0c] shadow-[0_0_0_1px_rgba(255,255,255,0.03)] transition-[transform,border-color,box-shadow] duration-500 motion-safe:hover:-translate-y-1.5 hover:border-purple-400/30 hover:shadow-[0_20px_50px_-24px_rgba(168,85,247,0.45)]"
+      className="group relative isolate flex h-full flex-col overflow-hidden rounded-3xl border border-white/10 bg-[#0a0a0c] transition-[transform,border-color,box-shadow] duration-500 motion-safe:hover:-translate-y-1.5 hover:border-purple-400/30 hover:shadow-[0_20px_50px_-24px_rgba(168,85,247,0.45)]"
     >
       <div
         className="pointer-events-none absolute inset-0 z-20 opacity-0 transition-opacity duration-300 group-hover:opacity-100"
@@ -47,16 +47,17 @@ export default function ProjectCard({ project }) {
             Featured
           </span>
         ) : null}
-        <img
-          src={project.image}
-          alt={`${project.title} preview`}
-          className="aspect-[16/10] w-full object-cover transition-transform duration-700 motion-safe:group-hover:scale-110"
-          loading="lazy"
-        />
-        <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-[#0a0a0c] via-[#0a0a0c]/25 to-transparent" />
+        <div className="aspect-[16/10] overflow-hidden">
+          <img
+            src={project.image}
+            alt={`${project.title} preview`}
+            className="h-full w-full object-cover object-top transition-transform duration-700 motion-safe:group-hover:scale-[1.05]"
+            loading="lazy"
+          />
+        </div>
       </div>
 
-      <div className="relative z-10 flex flex-1 flex-col px-5 pb-5 pt-2 sm:px-6 sm:pb-6">
+      <div className="relative z-10 flex flex-1 flex-col bg-[#0a0a0c] px-5 pb-5 pt-2 sm:px-6 sm:pb-6">
         <div className="mb-3 flex items-center gap-2">
           <a
             href={project.demo}

@@ -1,6 +1,6 @@
 import fiesta from '@/assets/images/projects/FiestaLaBlanc.png';
 import reactEssentials from '@/assets/images/projects/React-Essentials.png';
-import fashion from '@/assets/images/projects/fashion-profile.png';
+import sundown from '@/assets/images/projects/SundownStudio.png';
 import premier from '@/assets/images/projects/premier.png';
 import trendline from '@/assets/images/projects/trendline.png';
 import chayaChitra from '@/assets/images/projects/TheChayaChitra.png';
@@ -29,15 +29,15 @@ export const projects = [
       'Core React taught properly — components, hooks, data fetching, and a React 19 track loaded from a live API.',
   },
   {
-    id: 'fashion-week',
-    title: 'Fashion Week',
+    id: 'sundown-studio',
+    title: 'Sundown Studio',
     featured: false,
-    image: fashion,
-    demo: 'https://dribble-fashion-week.vercel.app/',
-    code: 'https://github.com/Vargos98/profile-page/tree/main',
-    stack: ['HTML', 'CSS', 'CSS Grid'],
+    image: sundown,
+    demo: 'https://sundown-studio-puce.vercel.app/',
+    code: 'https://github.com/Vargos98/Sundown-website',
+    stack: ['React 19', 'Vite', 'GSAP', 'Lenis', 'React Router', 'CSS'],
     description:
-      'Dribbble design recreation using HTML and CSS Grid. Practiced responsive layout and visual polish from a production-style mock.',
+      'Studio recreation in React 19 with GSAP, Lenis smooth scroll, and routed Work, Studio, and Contact pages.',
   },
   {
     id: 'premier',
