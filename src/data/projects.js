@@ -13,9 +13,9 @@ export const projects = [
     image: fiesta,
     demo: 'https://restaurant-react-app-rust.vercel.app/',
     code: 'https://github.com/Vargos98/restaurant-react-app',
-    stack: ['React.js'],
+    stack: ['React.js', 'GSAP', 'Lenis', 'CSS', 'Vercel'],
     description:
-      'Immersive restaurant website crafted with React.js for a seamless browsing experience. Explore the menu and the ambiance through visuals and dynamic layouts.',
+      'Fine-dining restaurant site with cinematic scroll, a framed hero, and booking and menu flows.',
   },
   {
     id: 'react-essentials',
