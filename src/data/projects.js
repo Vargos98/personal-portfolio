@@ -46,9 +46,9 @@ export const projects = [
     image: premier,
     demo: 'https://premier-website-beta.vercel.app/',
     code: 'https://github.com/Vargos98/Premier-website',
-    stack: ['HTML', 'CSS', 'Flexbox'],
+    stack: ['React 19', 'Vite', 'GSAP', 'Lenis', 'React Router', 'CSS'],
     description:
-      'Pinterest and Behance inspired landing page built with HTML, CSS, and Flexbox, focused on responsive visual layout.',
+      'Model management site in React 19 with GSAP, Lenis smooth scroll, and routed Models, Talent, and Agency pages.',
   },
   {
     id: 'trendline',
