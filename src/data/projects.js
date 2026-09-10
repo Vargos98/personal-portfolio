@@ -24,9 +24,9 @@ export const projects = [
     image: reactEssentials,
     demo: 'https://react-essentials-rosy.vercel.app/',
     code: 'https://github.com/Vargos98/react-essentials',
-    stack: ['React.js'],
+    stack: ['React 19', 'Vite', 'Tailwind CSS', 'GSAP', 'REST APIs', 'Vercel'],
     description:
-      'A learning site for React fundamentals with focused code snippets. Built to help beginners understand core topics in a more intuitive way.',
+      'Core React taught properly — components, hooks, data fetching, and a React 19 track loaded from a live API.',
   },
   {
     id: 'fashion-week',
