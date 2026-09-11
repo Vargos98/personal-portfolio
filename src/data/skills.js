@@ -36,6 +36,7 @@ import {
   SiReactrouter,
 } from 'react-icons/si';
 import zustand from '@/assets/images/tech/zustand.svg';
+import aceternity from '@/assets/images/tech/aceternity.svg';
 
 export const skills = [
   { id: 'html', title: 'HTML', Icon: SiHtml5, color: '#E34F26', group: 'frontend' },
@@ -59,6 +60,7 @@ export const skills = [
   { id: 'jwt', title: 'JWT', group: 'backend', hidden: true },
   { id: 'webrtc', title: 'WebRTC', group: 'backend', hidden: true },
   { id: 'ejs', title: 'EJS', group: 'frontend', hidden: true },
+  { id: 'aceternity', title: 'Aceternity UI', src: aceternity, color: '#FFFFFF', group: 'frontend', hidden: true },
   { id: 'node', title: 'Node.js', Icon: SiNodedotjs, color: '#5FA04E', group: 'backend' },
   { id: 'express', title: 'Express.js', Icon: SiExpress, color: '#FFFFFF', group: 'backend' },
   { id: 'mongo', title: 'MongoDB', Icon: SiMongodb, color: '#47A248', group: 'backend' },
@@ -136,6 +138,7 @@ export const STACK_ALIASES = {
   Vercel: 'vercel',
   Lenis: 'lenis',
   'React Router': 'react-router',
+  'Aceternity UI': 'aceternity',
 };
 
 export function skillFromStackLabel(label) {

@@ -24,7 +24,7 @@ export const projects = [
     image: reactEssentials,
     demo: 'https://react-essentials-rosy.vercel.app/',
     code: 'https://github.com/Vargos98/react-essentials',
-    stack: ['React 19', 'Vite', 'Tailwind CSS', 'GSAP', 'REST APIs', 'Vercel'],
+    stack: ['React 19', 'Vite', 'Tailwind CSS', 'GSAP', 'Aceternity UI', 'REST APIs'],
     description:
       'Core React taught properly — components, hooks, data fetching, and a React 19 track loaded from a live API.',
   },
@@ -57,7 +57,7 @@ export const projects = [
     image: ohmegal,
     demo: 'https://oohmyegal.onrender.com/',
     code: 'https://github.com/Vargos98/OhMegal',
-    stack: ['Node.js', 'Express.js', 'Socket.IO', 'WebRTC', 'Tailwind CSS', 'EJS'],
+    stack: ['Node.js', 'Express.js', 'Socket.IO', 'WebRTC', 'Tailwind CSS', 'Aceternity UI'],
     description:
       'Random one-to-one text and video chat — Socket.IO matching and WebRTC peer-to-peer calls, with no accounts.',
   },
