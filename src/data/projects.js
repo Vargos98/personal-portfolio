@@ -2,7 +2,7 @@ import fiesta from '@/assets/images/projects/FiestaLaBlanc.png';
 import reactEssentials from '@/assets/images/projects/React-Essentials.png';
 import sundown from '@/assets/images/projects/SundownStudio.png';
 import premier from '@/assets/images/projects/premier.png';
-import trendline from '@/assets/images/projects/trendline.png';
+import ohmegal from '@/assets/images/projects/OhMegal.png';
 import chayaChitra from '@/assets/images/projects/TheChayaChitra.png';
 
 export const projects = [
@@ -51,15 +51,15 @@ export const projects = [
       'Model management site in React 19 with GSAP, Lenis smooth scroll, and routed Models, Talent, and Agency pages.',
   },
   {
-    id: 'trendline',
-    title: 'Trendline',
+    id: 'ohmegal',
+    title: 'OhMegal',
     featured: false,
-    image: trendline,
-    demo: 'https://trendline-dribble.vercel.app/',
-    code: 'https://github.com/Vargos98/Trendline-dribble',
-    stack: ['HTML', 'CSS', 'Flexbox'],
+    image: ohmegal,
+    demo: 'https://oohmyegal.onrender.com/',
+    code: 'https://github.com/Vargos98/OhMegal',
+    stack: ['Node.js', 'Express.js', 'Socket.IO', 'WebRTC', 'Tailwind CSS', 'EJS'],
     description:
-      'Dribbble recreation using HTML, CSS, and Flexbox to practice production-quality spacing, type, and responsive structure.',
+      'Random one-to-one text and video chat — Socket.IO matching and WebRTC peer-to-peer calls, with no accounts.',
   },
   {
     id: 'chaya-chitra',
