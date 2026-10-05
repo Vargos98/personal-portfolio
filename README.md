@@ -1,6 +1,6 @@
 # Umesh Kumar — Portfolio
 
-Personal site for a Full-Stack Developer based in Gurugram.
+Personal site for a Software Engineer based in Gurugram.
 
 **Live:** [umeshkumar.vercel.app](https://umeshkumar.vercel.app/)
 

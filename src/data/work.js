@@ -1,16 +1,16 @@
 export const work = [
   {
     id: 'gudakesa-fullstack',
-    role: 'Full-Stack Developer',
+    role: 'Software Engineer',
     company: 'Gudakesa Pvt Ltd',
     period: 'May 2025 – Present',
     summary: 'Jira-integrated enterprise SaaS platform · Turborepo monorepo · Production web apps',
     points: [
-      'Engineered the Reporting Center module: Test Coverage, Test Run Analytics, and Test Plan Metrics with stacked bar charts, multi-filter controls, and real-time data aggregation.',
+      'Built the Reporting Center (Test Coverage, Test Run Analytics, Test Plan Metrics): designed the metrics APIs and the UI — stacked bar charts, multi-filter controls, and live aggregation from those endpoints.',
       'Developed and maintained 18+ micro-frontend modules (issue panels, project pages, and admin settings) in a Turborepo monorepo.',
-      'Worked in Agile sprints on encrypted API communication and GDPR-compliant data handling for multi-tenant SaaS.',
-      'Built and validated 20+ REST API integrations with Postman and Chrome DevTools (status codes, payloads, error handling, UI-API consistency).',
-      'Covered end-to-end user journeys with manual functional, regression, smoke, and exploratory testing.',
+      'Implemented encrypted API request/response handling and GDPR-aware data flows for a multi-tenant Jira SaaS product.',
+      'Shipped 20+ REST endpoints and wired them into the product UI; verified status codes, payloads, errors, and UI-API consistency with Postman and Chrome DevTools.',
+      'Covered end-to-end user journeys with manual functional, regression, smoke, and exploratory testing before release.',
     ],
   },
   {

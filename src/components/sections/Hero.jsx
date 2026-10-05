@@ -17,7 +17,7 @@ const iconMap = {
 };
 
 const highlights = [
-  { label: 'Experience', value: '3+ years' },
+  { label: 'Experience', value: '4+ years' },
   { label: 'Based in', value: 'Gurugram' },
   { label: 'Focus', value: 'MERN & Jira SaaS' },
   { label: 'Currently', value: 'Gudakesa' },
